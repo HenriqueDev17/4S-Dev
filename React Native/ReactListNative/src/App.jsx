@@ -4,7 +4,7 @@ import { SafeAreaProvider ,SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { styles } from "./Styles";
 import { Header } from "./components/header/Header";
-import { FrmCadTask } from "./components/frmCadTask.jsx/FrmCadTask";
+import { FormTask } from "./components/formtask/FormTask";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <SafeAreaProvider>
             <SafeAreaView style={styles.safeArea}>
                 <Header/>
-                <FrmCadTask/>
+                <FormTask/>
         <View style={styles.container}>
             <Text>My App</Text>
             <StatusBar style="auto" />
