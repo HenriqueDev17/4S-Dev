@@ -9,7 +9,7 @@ export const TaskItemStyle = StyleSheet.create({
         alignItems: "center",
         padding: 15,
         marginBottom: 15,
-        backgroundColor: "#3136",
+        backgroundColor: "#31364d",
         borderRadius: 5,
     },
 
